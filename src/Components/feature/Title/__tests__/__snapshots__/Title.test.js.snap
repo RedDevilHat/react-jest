@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Title component render UI component 1`] = `
+<div
+  className="title"
+>
+  <h2>
+    MY FIRST TESTING PROJECT
+  </h2>
+</div>
+`;

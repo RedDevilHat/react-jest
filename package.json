@@ -1,0 +1,49 @@
+{
+  "name": "react-jest",
+  "version": "1.0.0",
+  "description": "learn jest",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
+    "test": "jest --watchAll"
+  },
+  "author": "pmv",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.5.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "deep-freeze": "0.0.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.5.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-config": "^7.5.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}

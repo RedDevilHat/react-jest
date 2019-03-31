@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Title component render UI component 1`] = `
+<div
+  className="count"
+>
+  <span>
+    Counter: 
+  </span>
+</div>
+`;
+
+exports[`Render Title component render UI component with UNVALID data 1`] = `
+<div
+  className="count"
+>
+  <span>
+    Counter: 
+  </span>
+</div>
+`;
+
+exports[`Render Title component render UI component with UNVALID data 2`] = `
+<div
+  className="count"
+>
+  <span>
+    Counter: 
+  </span>
+</div>
+`;
+
+exports[`Render Title component render UI component with UNVALID data 3`] = `
+<div
+  className="count"
+>
+  <span>
+    Counter: 
+    NaN
+  </span>
+</div>
+`;
+
+exports[`Render Title component render UI component with VALID data 1`] = `
+<div
+  className="count"
+>
+  <span>
+    Counter: 
+    999999
+  </span>
+</div>
+`;

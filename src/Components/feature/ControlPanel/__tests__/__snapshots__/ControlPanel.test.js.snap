@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Title component render UI component 1`] = `
+<div
+  className="control-panel"
+>
+  <button
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    -
+  </button>
+</div>
+`;
